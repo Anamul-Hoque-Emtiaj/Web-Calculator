@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator1.css">
+</head>
+<body>
+    <div id="headline">
+		<h1>
+			Calculator Mood-2
+		</h1>
+    </div>
+	<div id="textbox">
+        <input type="text" name="txtbx" id="txtbx">
+	</div>
+	<div id="keyboard">
+		<div>
+            <button class="operator" id="backspace" onclick="insert('ce')">CE</button>
+		</div>
+		<div>
+			<a href="calculator.html">
+                <button id="mood">M1</button>
+            </a>
+		</div>
+		<div>
+            <button class="operator" id="rt" onclick="insert('rt')">√</button>
+		</div>
+		<div>
+            <button class="operator" id="log" onclick="insert('log')">log</button>
+		</div>
+
+
+		<div>
+            <button class="number" id="7" onclick="insert('7')">7</button>
+		</div>
+		<div>
+			<button class="number" id="8" onclick="insert('8')">8</button>
+		</div>
+		<div>
+			<button class="number" id="9" onclick="insert('9')">9</button>
+		</div>
+		<div>
+            <button class="operator" id="tan" onclick="insert('tan')">tan</button>
+		</div>
+
+
+		<div>
+			<button class="number" id="4" onclick="insert('4')">4</button>
+		</div>
+		<div>
+			<button class="number" id="5" onclick="insert('5')">5</button>
+		</div>
+		<div>
+			<button class="number" id="6" onclick="insert('6')">6</button>
+		</div>
+		<div>
+			<button class="operator" id="cos" onclick="insert('cos')">cos</button>
+		</div>
+
+
+		<div>
+			<button class="number" id="1" onclick="insert('1')">1</button>
+		</div>
+		<div>
+			<button class="number" id="2" onclick="insert('2')">2</button>
+		</div>
+		<div>
+			<button class="number" id="3" onclick="insert('3')">3</button>
+		</div>
+		<div>
+			<button class="operator" id="sin" onclick="insert('sin')">sin</button>
+		</div>
+
+
+		<div>
+			<button class="number" id="0" onclick="insert('0')">0</button>
+		</div>
+		<div>
+			<button class="number" id="dot" onclick="insert('.')">.</button>
+		</div>
+		<div>
+			<button class="operator" id="clear" onclick="insert('clr')">AC</button>
+		</div>
+		<div>
+			<button class="operator" id="pi" onclick="insert('pi')">X<sup>2</sup></button>
+		</div>
+
+    </div>
+    <script src="calculator1.js"></script>
+</body>
+</html>

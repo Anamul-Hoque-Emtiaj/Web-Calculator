@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right,rgb(250, 29, 96),rgb(163, 7, 124),rgb(116, 7, 189));
+}
+#headline{
+    text-align: center;
+    margin: 15px;
+}
+#textbox{
+    width: 308px;
+    height: 120px;
+    background-color: white;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    margin: auto;
+}
+#textbox #history{
+    text-align: right;
+    padding-right: 15px;
+    box-sizing: border-box;
+    font-size: x-large;
+    opacity: 80%;
+    overflow: hidden;
+    font-weight: bold;
+}
+#textbox #result{
+    text-align: right;
+    padding-right: 15px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    font-weight: bold;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: -10px;
+}
+#keyboard{
+    display: grid;
+    grid-template-columns: 77px 77px 77px 77px;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    justify-content: center;
+    
+}
+#keyboard .number{
+    width: 77px;
+    height: 60px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 120%;
+    color: white;
+    border: gray 3px solid;
+    box-sizing: border-box;
+}
+#keyboard .operator{
+    background-color: skyblue;
+    width: 77px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 120%;
+    color: white;
+    border: gray 3px solid;
+    box-sizing: border-box;
+}
+#keyboard #mood{
+    background-color: skyblue;
+    width: 77px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 120%;
+    color: white;
+    border: gray 3px solid;
+    box-sizing: border-box;
+}
+#keyboard #dot{
+    font-weight: bolder;
+    font-size: 150%;
+}
+#keyboard #clear{
+    background-color: black;
+}
+#keyboard #eql{
+    background-color: blue;
+}
+#keyboard button:focus,#keyboard #eql:focus ,#keyboard #clear:focus{
+    background-color: brown;
+    font-weight: bold;
+    color: black;
+    font-size: 120%;
+    outline: 0;
+}
+#keyboard #dot:focus{
+    background-color: brown;
+    color: black;
+    font-weight: bolder;
+    font-size: 150%;
+    outline: 0;
+}
+#keyboard #mood:focus{
+    background-color: brown;
+    font-weight: bold;
+    color: black;
+    font-size: 120%;
+    outline: 0;
+}
