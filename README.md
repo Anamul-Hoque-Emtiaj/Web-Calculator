@@ -1,5 +1,5 @@
 # A-Simple-Calculator
-This is my 1st project on HTML,CSS,JS.
+Simple Web Calculator with HTML,CSS,JS.
 
 
 Demonstration Video: 
